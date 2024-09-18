@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+  <div class="logo-container">
+    <div class="logo animate__animated animate__zoomIn">
+      <img src="logoTeste.png" alt="Logo do Site">
+    </div>
+  </div>
+  <div class="login-container animate__animated animate__fadeInUp">
+    <form id="login-form">
+      <div class="form-group">
+        <input type="text" id="username" name="username" placeholder="Usuário" required>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" name="password" placeholder="Senha" required>
+        <div class="forgot-password-container">
+          <a href="#" class="forgot-password">Esqueci minha senha</a>
+        </div>
+      </div>
+      <button type="submit">Entrar</button>
+    </form>
+    
+    <div class="additional-options">
+      <button class="google-login">
+        <img src="G-google.png"> Google
+      </button>
+      <p>Não tem uma conta?
+        <a href="#" class="register">Cadastre-se</a>
+      </p>
+    </div>
+
+    <div class="terms-policy">
+      <a href="#" class="terms">Termos de Uso</a> | 
+      <a href="#" class="privacy">Política de Privacidade</a>
+    </div>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
